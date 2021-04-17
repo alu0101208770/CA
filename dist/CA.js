@@ -115,5 +115,5 @@ function CA_Generator(g1, g2, sequenceLength) {
 const array1 = Array(10).fill(0b1);
 const array2 = Array(10).fill(0b1);
 const g1 = new G1(array1);
-const g2 = new G2(array2, 1);
+const g2 = new G2(array2, 13);
 CA_Generator(g1, g2, 14);

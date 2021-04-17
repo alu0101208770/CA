@@ -1,7 +1,7 @@
 /**
  * Clase abstracta que define un LFSR
  */
-abstract class LFSR {
+ abstract class LFSR {
   constructor(private lfsr: number[]) {
   }
 
@@ -132,5 +132,5 @@ function CA_Generator(g1: G1, g2: G2, sequenceLength: number): number[] {
 const array1 = Array<number>(10).fill(0b1);
 const array2 = Array<number>(10).fill(0b1);
 const g1: G1 = new G1(array1);
-const g2: G2 = new G2(array2, 1);
+const g2: G2 = new G2(array2, 13);
 CA_Generator(g1, g2, 14);
